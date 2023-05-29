@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+main {
+    height: 100vh;
+    padding-top: 30px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #083DF9;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.mensagemForm {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mensagemForm input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.mensagemForm button {
+    background-color: #083DF9;
+    color: #FFF;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mensagemForm button:hover {
+    background-color: #0A5BFF;
+}
+
+.login {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    right: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 1;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.login form button {
+    background-color: #083DF9;
+    color: #FFF;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login form button:hover {
+    background-color: #0A5BFF;
+}
+
+.mensagens {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 5px 5px 5px;
+    padding: 15px;
+    overflow-y: scroll;
+    height: 100%;
+    overflow-x: hidden;
+    padding-bottom: 70px;
+}
+
+.mensagem {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mensagem .nome {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mensagem .texto {
+    font-size: 16px;
+}
+
+.me {
+    background-color: #92BCEA;
+}

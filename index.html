@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainyMoura</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./img/logo.png" alt="BrainyMoura" width="50"> <span>BrainyMoura</span>
+            </div>
+            <img src="./img/logo-moura.svg" alt="BrainyMoura" width="50">
+        </header>
+
+        <div class="chat">
+            <h3>Oi, como posso te ajudar?</h3>
+            <form action="chat.html" class="form-mensagem-home">
+                <input type="text" placeholder="Mensagem..." class="input-mensagem-home" name="prompt">
+                <button class="btn-enviar-mensagem">Enviar</button>
+            </form>
+            <button class="btn-abrir-chat" onclick="window.location.href='./chat.html'">Clique aqui para abrir o
+                chat</button>
+        </div>
+
+        <div class="faqs">
+            <div class="faq" data-modal="itemm">
+                <img src="./img/faq.png" alt="FAQ" width="50">
+                <h3>ITEMM</h3>
+            </div>
+            <div class="faq" data-modal="modaltest">
+                <img src="./img/faq.png" alt="FAQ" width="50">
+                <h3>Produto</h3>
+            </div>
+            <div class="faq" data-modal="modaltest">
+                <img src="./img/faq.png" alt="FAQ" width="50">
+                <h3>Produto</h3>
+            </div>
+            <div class="faq" data-modal="modaltest">
+                <img src="./img/faq.png" alt="FAQ" width="50">
+                <h3>Produto</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal" id="itemm">
+        <div class="modal-body">
+            <div class="modal-header">
+                <h3>Produto</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-content">
+                <p>Lorem ipsum dolor si amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor. Donec
+                    aliquam, sapien eget fermentum luctus, nisi nisl ultricies arcu, eget aliquam diam erat a risus. Sed
+                    vitae
+                    nisl eget aug
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/modals.js"></script>
+</body>
+
+</html>
