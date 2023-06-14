@@ -165,9 +165,10 @@ footer {
 
 .mensagem .texto {
     font-size: 16px;
-    color: #FFF;
+    color: #000;
 }
 
 .me {
     background-color: #E3CD00;
+    color: #FFF;
 }
