@@ -75,7 +75,7 @@ function chatAPI() {
         msgs.scrollTop = msgs.scrollHeight;
 
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://45.56.74.175:8000/chat", true);
+        xhr.open("POST", "http://69.164.203.242:8000/chat", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({
             "nome": nome,
